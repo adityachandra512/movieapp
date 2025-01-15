@@ -33,7 +33,10 @@ export default function SearchScreen({ navigation }) {
         keyExtractor={(item) => item.show.id.toString()}
         contentContainerStyle={styles.listContent}
         renderItem={({ item }) => (
-          <MovieCard movie={item.show} onPress={() => navigation.navigate('Details', { movie: item.show })} />
+          <MovieCard
+            movie={item.show}
+            onPress={() => navigation.navigate('Details', { movie: item.show })} // Navigate to Details with movie data
+          />
         )}
       />
     </KeyboardAvoidingView>
@@ -45,7 +48,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#121212',
     paddingHorizontal: 10,
-    paddingTop: 20,
+    paddingTop: 10,
   },
   searchBar: {
     height: 50,

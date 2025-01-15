@@ -1,6 +1,3 @@
-Here's a professional README file for your React Native app:
-
----
 
 # MovieApp 🎬  
 A sleek React Native app designed to display movie information using the [TVmaze API](https://www.tvmaze.com/api). The app offers a Netflix-inspired UI with features like a splash screen, home screen, search screen, and details screen.
@@ -125,6 +122,3 @@ This project is licensed under the [MIT License](LICENSE).
 - [TVmaze API](https://www.tvmaze.com/api) for providing the movie data.  
 - The React Native and open-source communities for their incredible resources.
 
----
-
-Feel free to adapt this README to your specific project needs. 🚀

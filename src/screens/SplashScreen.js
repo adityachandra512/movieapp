@@ -14,7 +14,7 @@ export default function SplashScreen({ navigation }) {
         source={{ uri: 'https://icon-library.com/images/movie-icon-png/movie-icon-png-2.jpg' }} // Replace with a relevant splash image
         style={styles.image}
       />
-      <Text style={styles.text}>Welcome to MovieApp</Text>
+      <Text style={styles.text}>Welcome to Movie<Text style={{ color: 'yellow' }}> 512</Text></Text>
     </View>
   );
 }
